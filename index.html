@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Customisable Wedding Invitations</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <header>
+        <h1>Customisable Wedding Invitations</h1>
+            <nav>Select your style: <label id="Style1" onclick="ChangeStyles();">  Colourful | </label> <label id="Style2" onclick="ChangeStyles2();">  Cute | </label><label id="Style3" onclick="ChangeStyles3();">  Dark |</label> </nav>
+    </header>
+    <br>
+      
+    <div class="row">
+        <div class="column">
+            <aside>
+            <br><br><br><br><br>
+            Enter your wedding details here:<br>
+            <br>
+            <label for="nameTxt">Given Name 1:</label><br>
+            <input type="text" placeholder="Bride" id="nameTxt" onkeyup="seeWhatIType();">
+            <br>
+            <label for="gName2">Given Name 2:</label><br>
+            <input type="text" placeholder="Groom" id="gName2" onkeyup="seeWhatIType2();">
+            <br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" placeholder="Surname" id="surname" onkeyup="seeWhatIType3();">
+            <br>
+            <label for="date">Date:</label><br>   
+            <input type="text" placeholder="01/01/2022" id="date" onkeyup="seeWhatIType4();">
+            <br>
+            <label for="location">Location:</label><br>
+            <input type="text" placeholder="Melbourne" id="location" onkeyup="seeWhatIType5();">
+            <br>
+            </aside>
+        </div>
+        <div class="column">
+              
+        
+            <main>
+            <br><br><br><br><br>
+            <div id="joinus">Join us to celebrate<br> the wedding of</div><br><br>
+            <div id="n1">Name 1</div>    and      <div id="n2"> Name 2</div>
+            <br>
+            <div id="sn">Surname</div><br><br><br>
+            <div id="date2">Date</div><br>
+            <div id="Loc2">Location</div> 
+            <br>
+            <br>
+            
+        </main>
+        </div>
+      </div>
+
+<script type="text/javascript" src="Script/script.js"></script>
+
+</body>
+
+</html>
