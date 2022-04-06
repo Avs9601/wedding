@@ -1,0 +1,51 @@
+h1 {
+   color: palevioletred;
+   text-align: center;
+   font-family: fantasy;
+   font-weight: 500;
+       
+}
+
+nav{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    padding: 30px;
+    margin: 30px;
+}
+
+body {
+    color: palevioletred;
+    background-color: beige;
+    }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+aside {
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+main {
+    width: 600px;
+    height: 800px;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    font-size: 150%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: table;
+    clear: both;
+}
