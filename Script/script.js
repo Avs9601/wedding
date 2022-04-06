@@ -62,7 +62,7 @@ function ChangeStyles() {
     const paraArray = document.getElementsByTagName('main');
 
     for (let i = 0; i <paraArray.length; i++) {
-        paraArray.item(i).style.backgroundImage = "url(b1Colourful.jpg)";
+        paraArray.item(i).style.backgroundImage = "url(Images/b1Colourful.JPG)";
     }
 }
 
@@ -70,7 +70,7 @@ function ChangeStyles2() {
     const paraArray = document.getElementsByTagName('main');
 
     for (let i = 0; i <paraArray.length; i++) {
-        paraArray.item(i).style.backgroundImage = "url(b2Light.jpg)";
+        paraArray.item(i).style.backgroundImage = "url(Images/b2Light.JPG)";
     }
 }
 
@@ -78,7 +78,7 @@ function ChangeStyles3() {
     const paraArray = document.getElementsByTagName('main');
 
     for (let i = 0; i <paraArray.length; i++) {
-        paraArray.item(i).style.backgroundImage = "url(b3Dark.jpg)";
+        paraArray.item(i).style.backgroundImage = "url(Images/b3Dark.JPG)";
     }
 }
 
